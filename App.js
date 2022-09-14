@@ -14,7 +14,7 @@ const theme = {
   ...DefaultTheme,
   colors: {
     ...DefaultTheme.colors,
-    background: 'purple'
+    background: 'transparent'
   }
 }
 
@@ -26,7 +26,7 @@ const App = () => {
     InterRegular: require("./assets/fonts/Inter-Regular.ttf"),
     InterLight: require("./assets/fonts/Inter-Light.ttf"),
   });
-  if(!loaded){
+  if (!loaded) {
     return null
   }
 
